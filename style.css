@@ -4,6 +4,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 body{
@@ -11,8 +12,11 @@ body{
 }
 
 .container{
-    max-width:1200px;
+    max-width:100%;
     margin: auto;
+    width: 1200px;
+    margin: auto;
+    position: relative;
 }
 
 .topo{
@@ -65,4 +69,5 @@ button{
     border: none;
     color: white;
     border-radius: 9px;
+    cursor: pointer;
 }
