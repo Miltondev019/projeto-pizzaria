@@ -112,3 +112,30 @@ button{
         transform: translateY(0);}
         100% { transform: translateY(-8px);}
 }
+
+@media (max-width:700px){
+
+    .container{
+        max-width: 100%;
+        margin: auto;
+        position: relative;
+        padding: 0;
+    }
+
+    .hero img{
+        width: 100VW;
+        height: 100vh;
+        box-shadow: none;
+        border-radius: none;
+        object-fit: cover;
+    }
+
+    .redes-sociais{
+        margin: 0;
+    }
+
+    .redes{
+        display:none;
+    }
+
+}
