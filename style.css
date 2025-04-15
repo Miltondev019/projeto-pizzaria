@@ -117,7 +117,6 @@ button{
     animation: sobeDesce 1s infinite alternate ease-in-out;
 }
 
-
 @keyframes sobeDesce{
     0% {
         transform: translateY(0);}
@@ -126,11 +125,32 @@ button{
 
 @media (max-width:700px){
 
+    .menu{
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0px;
+        background: white;
+        width: 200px;
+        border-radius: 0  0  0 7px;
+        font-weight: 800;
+        font-size: 17x;
+    }
+    
+    ul{
+        display: flex;
+        flex-direction: column;
+    }
+
     .container{
         max-width: 100%;
         margin: auto;
         position: relative;
         padding: 0;
+    }
+
+    i{
+        display: block;
     }
 
     .hero img{
@@ -149,4 +169,10 @@ button{
         display:none;
     }
 
+}
+
+@media (min-width:701px){
+    i{
+        display: none;
+    }
 }
