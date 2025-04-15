@@ -13,10 +13,10 @@
         <h1>Pizzaria</h1>
         <nav>
             <ul>
-                <li>Inicio</li>
+                <li>Inicio</a></li>
                 <li>Sobre</li>
                 <li>Cardápio</li>
-                <li>Contato</li>
+                <li><a href="login.html" target="_blank">Login</a></li>
             </ul>
         </nav>
     </header>
@@ -46,3 +46,9 @@
     </div>
 </body>
 </html>
+<script>
+    function toggleMenu() {
+      const menu = document.querySelector(".menu ul");
+      menu.classList.toggle("ativo");
+    }
+  </script>

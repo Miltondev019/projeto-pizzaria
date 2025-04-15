@@ -4,7 +4,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-
+    color: inherit;
 }
 
 body{
@@ -37,10 +37,20 @@ body{
 
 nav ul{
     display: flex;
-    gap: 20px;
+    gap: 10px;
     margin-right: 30px;
     font-weight: 700;
     cursor: pointer;
+}
+
+li{
+    transition: 0.9s;
+    padding: 10px;
+
+}
+
+li:hover{
+    transform: translatey(-10px);
 }
 
 .hero img{
@@ -106,6 +116,7 @@ button{
     display: inline-block;
     animation: sobeDesce 1s infinite alternate ease-in-out;
 }
+
 
 @keyframes sobeDesce{
     0% {
