@@ -94,6 +94,12 @@ button{
     cursor: pointer;
 }
 
+.animadoo{
+    display: inline-block;
+    animation: sobeDesce 1s infinite alternate ease-in-out;
+}
+
+
 .redes-sociais img{
     width: 23px;
     border-radius: 10px;
