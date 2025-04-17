@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing:border-box;
+    border: none;
 }
 
 body{
@@ -9,6 +10,7 @@ body{
     width: 100%;
     background: rgb(245, 228, 228);
     overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container{
@@ -32,4 +34,63 @@ img{
     top: 50%;
     transform: translate(-50%, -50%);
     max-width: 90%;
+    background: #770101ce;
+    padding: 50px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    margin: -20px 0px 30px 0px;
+    color: #eae2b7;
+    font-size:40px ;
+}
+
+h3{
+    font-size: 16px;
+    color: #eae2b7;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 7px;
+    margin-bottom: 30px;
+    width: 100%;
+    background: #1d0202ce;
+}
+
+
+
+.submit{
+    background: #d62828;
+    color: #eae2b7;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+h2{
+    color:#fcbf49 ;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+@media (max-width:700px){
+    .container{
+        
+    }
+
+    .card{
+        width: 300px;
+        background:#811010da;
+    }
+    
+    img{
+        content: url(/imagem/pizza4.png);
+        background-position: cover;
+        filter: brightness(0.8);
+    }
 }
